@@ -10,9 +10,11 @@ yesBtn.addEventListener("click", () => {
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
-array = ['are you sure? :(', 'Im going to be sad:(' , 'Really?:(','Think about it:(']
 
 noBtn.addEventListener("mouseover", () => {
+
+  array = ['are you sure? :(', 'Im going to be sad:(' , 'Really?:(','Think about it:(']
+
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
